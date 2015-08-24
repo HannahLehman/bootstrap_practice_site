@@ -30,12 +30,15 @@
   width: 15%;
   text-align: center;
 }
-.thumbnail {
+.approach .thumbnail {
   background-color: #ECECEC;
   border: none;
   box-shadow: none;
   width: 70px;
   margin: auto;
+}
+.instructors {
+  background-color: #FBD334;
 }
 /*.img-circle {
   background-color: #ffffff;
