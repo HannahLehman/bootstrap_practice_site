@@ -1,0 +1,47 @@
+.jumbotron {
+  background-image:url("static/Enterprise-Students2.jpg");
+  padding: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: -80px;
+  background-position:  center;
+  background-color: #000000;
+}
+.jumbotron h1 {
+  line-height: .8;
+  text-align: center;
+  color: #ffffff;
+  font-family: "PFDinTextCompProBold", Impact, Arial;
+  font-size: 6em;
+  text-transform: uppercase;
+}
+.jumbotron p {
+  color: #ffffff;
+}
+.approach {
+  margin-top: -40px;
+  background-color: #ECECEC;
+}
+.approach h2 {
+  text-align: center;
+}
+.approach-content {
+  width: 15%;
+  text-align: center;
+}
+.thumbnail {
+  background-color: #ECECEC;
+  border: none;
+  box-shadow: none;
+  width: 70px;
+  margin: auto;
+}
+/*.img-circle {
+  background-color: #ffffff;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
