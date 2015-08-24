@@ -1,50 +1,77 @@
+h1, h2 {
+  font-family: "PFDinTextCompProBold", Impact, Arial;
+  text-transform: uppercase;
+}
+.nav {
+  background-color: #000000;
+}
 .jumbotron {
-  background-image:url("static/Enterprise-Students2.jpg");
+  background-image:url("static/Enterprise-Students1.jpg");
   padding: 20%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   margin-top: -80px;
   background-position:  center;
-  background-color: #000000;
 }
 .jumbotron h1 {
   line-height: .8;
-  text-align: center;
   color: #ffffff;
-  font-family: "PFDinTextCompProBold", Impact, Arial;
-  font-size: 6em;
-  text-transform: uppercase;
+  font-size: 12em;
+  margin-top: 10%;
+}
+@media(max-width: 800px) {
+  h1 {
+    font-size: 10em;
+  }
 }
 .jumbotron p {
   color: #ffffff;
 }
 .approach {
-  margin-top: -40px;
   background-color: #ECECEC;
-}
-.approach h2 {
   text-align: center;
-}
-.approach-content {
-  width: 15%;
-  text-align: center;
+  float: none;
+  margin: auto auto;
 }
 .approach .thumbnail {
   background-color: #ECECEC;
   border: none;
   box-shadow: none;
-  width: 70px;
+  width: 25%;
   margin: auto;
 }
 .instructors {
+  text-align: center;
   background-color: #FBD334;
 }
-/*.img-circle {
-  background-color: #ffffff;
+.bio {
+  background-color: #F6F6F6;
+  width: 15%;
+  height: 5%;
+  margin: 0 1%;
 }
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}*/
+.footer {
+  font-family: "Times New Roman", serif;
+}
+.footer, .footer a:link, .footer a:visited {
+  background-color: #222222;
+  color: #666666;
+}
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer p {
+  float: left;
+  padding: 2%;
+}
+.footer span {
+  display: inline-block;
+  padding: 2%;
+}
+.assembled {
+  float: right;
+  padding: 2%;
+  list-style: none;
+}
