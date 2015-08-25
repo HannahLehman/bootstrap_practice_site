@@ -1,58 +1,133 @@
+/* BODY */
+
 h1, h2 {
   font-family: "PFDinTextCompProBold", Impact, Arial;
   text-transform: uppercase;
 }
+
+
+/* NAVIGATION */
+
 .nav {
   background-color: #000000;
 }
+
+
+/* PAGE HEADER */
+
 .jumbotron {
   background-image:url("static/Enterprise-Students1.jpg");
-  padding: 20%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  margin-top: -80px;
+  height: 525px;
+  margin-top: -50px;
+  margin-bottom: 0px;
   background-position:  center;
+  text-align: center;
+  padding-top: -50px;
 }
 .jumbotron h1 {
   line-height: .8;
   color: #ffffff;
-  font-size: 12em;
-  margin-top: 10%;
-}
-@media(max-width: 800px) {
-  h1 {
-    font-size: 10em;
-  }
+  font-size: 11em;
 }
 .jumbotron p {
   color: #ffffff;
+  font-family: "Times New Roman", serif;
 }
+.header {
+  display: table;
+}
+.header-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* HIDDEN EMAIL CAPTURE */
+.btn { 
+  color: #ffffff;
+  background-color: #fa4542;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 0 #be0201;
+  padding: 16px 32px;
+  margin-top: 16px; 
+  font-size: 18px; 
+  font-family: Helvetica, sans-serif;
+}
+.header a:hover {
+  color: white;
+  background-color: red;
+}
+
+
+/* APPROACH CONTENT*/
+
 .approach {
   background-color: #ECECEC;
   text-align: center;
   float: none;
-  margin: auto auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.approach h2, .instructors h2 {
+    font-size: 4.5em;
 }
 .approach .thumbnail {
   background-color: #ECECEC;
   border: none;
   box-shadow: none;
-  width: 25%;
+  width: 50%;
   margin: auto;
 }
+.approach-content h3 {
+  font-size: 20px;
+}
+.approach-content p {
+  font-size: 16px;
+  font-family: "Times New Roman", serif; 
+}
+
+
+/* INSTRUCTOR CONTENT */
+
 .instructors {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: #FBD334;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+.instructors p {
+  width: 75%;
+  text-align: left;
+  margin: auto;
 }
 .bio {
+  text-align: center;
   background-color: #F6F6F6;
-  width: 15%;
-  height: 5%;
-  margin: 0 1%;
+  padding-top: 1%;
+  margin-right: 2%;
+  height: 500px;
 }
+hr {
+  background: none;
+  border: 2px solid #000000;
+  width: 50px;
+}
+
+/* FOOTER / LEGAL */
+
 .footer {
   font-family: "Times New Roman", serif;
+}
+.footer-content {
+  width: 75%;
+  margin: auto;
 }
 .footer, .footer a:link, .footer a:visited {
   background-color: #222222;
@@ -74,4 +149,20 @@ h1, h2 {
   float: right;
   padding: 2%;
   list-style: none;
+}
+
+
+/* SMALL SCREEN RESPONSES */
+
+@media(max-width: 800px) {
+  .jumbotron h1 {
+    font-size: 5em;
+  }
+  .approach h2 {
+    font-size: 2.5em;
+  }
+  .bio {
+    height: 100%;
+    margin-left: 2%;
+  }
 }
